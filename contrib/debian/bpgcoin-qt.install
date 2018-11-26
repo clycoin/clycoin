@@ -1,0 +1,6 @@
+usr/local/bin/clycoin-qt usr/bin
+share/pixmaps/clycoin32.xpm usr/share/pixmaps
+share/pixmaps/clycoin16.xpm usr/share/pixmaps
+share/pixmaps/clycoin128.png usr/share/pixmaps
+debian/clycoin-qt.desktop usr/share/applications
+debian/clycoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=CLYCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=clycoin
+Group=clycoin
+
+Type=forking
+PIDFile=/var/lib/clycoind/clycoind.pid
+ExecStart=/usr/bin/clycoind -daemon -pid=/var/lib/clycoind/clycoind.pid \
+-conf=/etc/clycoin/clycoin.conf -datadir=/var/lib/clycoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

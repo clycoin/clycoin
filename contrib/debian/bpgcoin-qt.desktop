@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CLYCoin
+Comment=CLYCoin P2P Cryptocurrency
+Comment[fr]=CLYCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CLYCoin, eşten eşe kriptografik sanal para birimi
+Exec=clycoin-qt %u
+Terminal=false
+Type=Application
+Icon=clycoin128
+MimeType=x-scheme-handler/clycoin;
+Categories=Office;Finance;

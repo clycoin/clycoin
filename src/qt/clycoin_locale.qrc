@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/clycoin_bg.qm</file>
+        <file alias="de">locale/clycoin_de.qm</file>
+        <file alias="en">locale/clycoin_en.qm</file>
+        <file alias="es">locale/clycoin_es.qm</file>
+        <file alias="fi">locale/clycoin_fi.qm</file>
+        <file alias="fr">locale/clycoin_fr.qm</file>
+        <file alias="it">locale/clycoin_it.qm</file>
+        <file alias="ja">locale/clycoin_ja.qm</file>
+        <file alias="pl">locale/clycoin_pl.qm</file>
+        <file alias="pt">locale/clycoin_pt.qm</file>
+        <file alias="ru">locale/clycoin_ru.qm</file>
+        <file alias="sk">locale/clycoin_sk.qm</file>
+        <file alias="sv">locale/clycoin_sv.qm</file>
+        <file alias="vi">locale/clycoin_vi.qm</file>
+        <file alias="zh_CN">locale/clycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/clycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
